@@ -5,4 +5,4 @@ target/
 *.iml
 *.iws
 pom.xml
-src/
+.vertx/
