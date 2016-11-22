@@ -11,7 +11,7 @@ object Main {
     @JvmStatic
     fun main(args: Array<String>) {
         print("starting server")
-        val server =  Vertx.vertx().createHttpServer()
+        val server = Vertx.vertx().createHttpServer()
 
         server.requestHandler {
             val resp = it.response()
