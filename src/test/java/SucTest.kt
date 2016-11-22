@@ -15,6 +15,6 @@ class SucTest {
     @Test
     fun failTest() {
         val a = 2 * 2
-        assertEquals(a, 5)
+        assertEquals(a, 4)
     }
 }

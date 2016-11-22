@@ -1,3 +1,5 @@
+package com.zhambyl.app
+
 import io.vertx.core.Vertx
 
 /**
@@ -5,6 +7,7 @@ import io.vertx.core.Vertx
  */
 
 object Main {
+
     @JvmStatic
     fun main(args: Array<String>) {
         print("starting server")
